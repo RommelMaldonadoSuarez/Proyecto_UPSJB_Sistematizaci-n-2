@@ -1,1 +1,0 @@
-# Proyecto_UPSJB_Sistematizaci-n-2
