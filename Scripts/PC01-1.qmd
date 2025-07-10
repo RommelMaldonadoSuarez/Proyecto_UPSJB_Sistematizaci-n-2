@@ -1,0 +1,46 @@
+---
+title: "Semana3_24/04/25"
+format: html
+editor: visual
+---
+
+```{r}
+m = "Diabeticos tipo I"
+n = "< 24 años"
+b = "este es un caracter"
+p = c("leve" , "Moderado", "Grave")
+is.vector(p)
+```
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+2 + 7
+x = 5
+y = 7
+x + y
+s = x + y 
+s - y 
+a = 10
+c = 10
+class(c)
+class(a)
+z <- c(3, 7, 2)
+is.vector(z)
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).

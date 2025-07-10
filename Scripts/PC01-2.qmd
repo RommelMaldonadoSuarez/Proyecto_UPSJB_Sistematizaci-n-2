@@ -1,0 +1,60 @@
+---
+title: "PCI - I"
+format: html
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+```{r}
+VECTORES CON NOMBRE DE ELEMENTOS - uSADO -> "names()"
+
+v1 <- c(Bolivia="1996", Perú="2024", Argentina="1756") 
+v1 <- c("Bolivia"="1996", "Perú"="2024", "Argentina"="1756")
+
+
+codigos <- c("0051", "0033", "0039")
+pais <- c("Bolivia", "Perú", "Argentina")
+names(codigos) <- pais
+codigos
+```
+
+```{r}
+SECUENCIA - USADO -> "Seq()"
+
+seq(from=4, to=21)
+seq(4, 21)
+
+SECUENCIA PERO SALTANDO NÚMEROS
+
+seq(from=3, to=21, by=3)
+seq(3, 21, 3)
+
+```
+
+```{r}
+REPETICIÓN - USADO -> "rep()"
+
+rep(5, 10) - > solicitamos que nos repita 10 veces el valor 5
+rep(4:7, 7) - > solicitamos que nos repita 7 veces la secuencia de 4:7
+
+```
